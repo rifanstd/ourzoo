@@ -1,0 +1,106 @@
+/* Style Semua Elemen */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Style body */
+body {
+    background-image: url("../image/login-bg.jpg");
+    background-size: cover;
+}
+
+/* Style login container */
+.login-container {
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 50px;
+    background-color: #191919;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Style form control */
+.form-control {
+    display: block;
+    margin: auto;
+}
+
+/* Style header */
+.login-container .header {
+    margin-bottom: 30px;
+}
+
+/* Style title header */
+.login-container .header .title {
+    font-size: 35px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+/* Style description title login */
+.login-container .header .description {
+    color: #6c757d;
+    font-size: 14px;
+}
+
+/* Style input */
+input[type="text"],
+input[type="password"] {
+    width: 300px;
+    height: 50px;
+    background: none;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid lime;
+    outline: none;
+    border-radius: 30px;
+    font-size: 18px;
+    line-height: 50px;
+    padding: 10px;
+    color: white;
+}
+
+/* Style forgot pass */
+.forgot {
+    color: #6a90b1;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Style login button */
+button {
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    background: none;
+    border: 2px solid rgb(106, 70, 240);
+    border-radius: 30px;
+    color: white;
+}
+
+/* Style button:hover */
+button:hover {
+    color: black;
+    background: rgb(106, 70, 240);
+    cursor: pointer;
+}
+
+/* Style don't have acc */
+.dont-have-acc {
+    color: #6c757d;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Style register text */
+.dont-have-acc a {
+    color: #4f89bd;
+    text-decoration: none;
+}

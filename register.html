@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | OURZOO</title>
+    <link rel="stylesheet" href="css/style-register.css">
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <register class="register-container">
+        <div class="header">
+            <p class="title">Sign Up</p>
+            <p class="description">Sign Up Now!</p>
+        </div>
+
+        <div class="main">
+            <form>
+                <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" class="form-control" placeholder="Email" required>
+                <input type="text" name="username" id="username" class="form-control" placeholder="Username">
+                <input type="password" class="form-control" placeholder="Password">
+                <div class="gender form-control">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male">
+
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female">
+                </div>
+                <button type="submit" class="form-control register-button">Register</button>
+                <p class="form-control have-acc">
+                    Have already account? <a href="login.html">Login</a>
+                </p>
+            </form>
+        </div>
+    </register>
+</body>
+</html>
